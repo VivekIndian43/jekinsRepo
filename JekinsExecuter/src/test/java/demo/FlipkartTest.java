@@ -10,7 +10,7 @@ public class FlipkartTest {
 	public void loginTest()
 	{
 		WebDriver driver=new ChromeDriver();
-		driver.get("www.flipkart.com/");
+		driver.get("https://www.flipkart.com/");
 		Reporter.log("Flipkart is launch Sucessfully",true);
 	}
 
